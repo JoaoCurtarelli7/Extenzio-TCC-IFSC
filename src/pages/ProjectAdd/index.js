@@ -253,7 +253,7 @@ export default function ProjectAdd() {
           }, roundness: 8
         }}
         style={styles.TextInt}
-        placeholder="Ex: Batata doce como fonte de energia."
+        placeholder="Titulo"
         placeholderTextColor="#d6d6d6"
         autoCorrect={false}
         autoCapitalize="sentences"
@@ -268,7 +268,7 @@ export default function ProjectAdd() {
           }, roundness: 8
         }}
         style={styles.TextInt2}
-        placeholder="Ex: Batata doce é energia pra maromba. Por que não abastecer uma cidade?"
+        placeholder="Descrição Projeto"
         placeholderTextColor="#d6d6d6"
         autoCorrect={false}
         autoCapitalize="sentences"
@@ -432,25 +432,26 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center'
+    
   },
   vagasInput: {
     height: '8%',
     width: '90%',
-    marginTop: 10,
+    marginTop: 15,
     marginLeft: 20
   },
   chip: {
-    width: 300,
+    width: 200,
     height: 50,
     fontSize: 80,
     margin: 5,
     display: 'flex',
     flexDirection: 'row',
-    alignItems: 'center',
+    alignSelf: 'center',
     borderRadius: 100,
     backgroundColor: '#e3e3e3',
     justifyContent: 'center',
-    marginLeft: "16%"
+  
   }, pressedChip: {
     width: 300,
     height: 50,

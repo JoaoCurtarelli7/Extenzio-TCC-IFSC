@@ -57,7 +57,7 @@ export default function PersonProfile({ route }) {
           </View>
         </View>
         <View style={styles.bioContainer}>
-          <Text style={{ marginRight: '93%', fontWeight: 'bold', fontSize: 16, color: '#6d0ad6' }}>Bio:</Text>
+          <Text style={{ marginRight: '93%', fontWeight: 'bold', fontSize: 14, color: '#6d0ad6' }}>Bio:</Text>
           <Text style={{textAlign: 'justify'}}>{userData.bio}</Text>
         </View>
         <Text style={{ margin: '3%', fontWeight: 'bold', fontSize: 16, color: '#6d0ad6' }}>Campus atuante e contato:</Text>

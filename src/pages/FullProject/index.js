@@ -414,12 +414,13 @@ const styles = StyleSheet.create({
 
   }, botao: {
     backgroundColor: '#ff8940',
-    width: 375,
+    width: "50%",
     height: 40,
     margin: 10,
     borderRadius: 20,
     display: 'flex',
     alignItems: 'center',
+    alignSelf: 'center',
     justifyContent: 'center'
   }
 })

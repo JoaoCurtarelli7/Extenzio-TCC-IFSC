@@ -452,18 +452,17 @@ const styles = StyleSheet.create({
         borderBottomWidth: 1.5,
         borderBottomColor: '#6d0ad6',
         padding: '5%'
-    }, closeButton: {
+    }, 
+    
+    closeButton: {
         backgroundColor: '#6d0ad6',
         padding: 10,
         borderRadius: 40,
-        marginLeft: '20%',
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'center',
-        width: '30%',
-        marginRight: -80,
-        marginTop: 5
-      
+        width: '20%',
+        marginTop: "10%",
+        marginLeft: '20%'
     },
     header: {
         width: "100%",
@@ -496,7 +495,7 @@ const styles = StyleSheet.create({
         marginTop: 10,
         marginLeft: '5%'
     }, gBtn: {
-        height: '100%',
+        height: '20%',
         borderRadius: 15,
         backgroundColor: "#6d0ad6",
         display: 'flex',
@@ -508,12 +507,13 @@ const styles = StyleSheet.create({
 
     },
     imageBox: {
-        width: 200,
-        height: 200,
+        width: "43%",
+        height: 150,
+        top: 15,
         borderRadius: 10,
         borderWidth: 1,
         borderColor: '#000',
-    },
+      },
     imageSection: {
         display: 'flex',
         flexDirection: 'row',

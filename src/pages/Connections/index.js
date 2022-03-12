@@ -120,6 +120,6 @@ const styles = StyleSheet.create({
         height: 50,
         marginTop: 5,
         marginBottom: 5,
-        marginLeft: '10%'
-    }
+        alignSelf: 'center',
+      },
 })
