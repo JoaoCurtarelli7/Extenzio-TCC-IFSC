@@ -128,8 +128,10 @@ const styles = StyleSheet.create({
     height: 50,
     marginTop: 5,
     marginBottom: 5,
-    marginLeft: '10%'
-  }, header: {
+    alignSelf: 'center',
+  },
+  
+  header: {
     width: "100%",
     flexDirection: 'row',
     backgroundColor: '#6d0ad6',

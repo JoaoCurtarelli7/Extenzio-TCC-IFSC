@@ -312,8 +312,8 @@ const styles = StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     height: 50,
-    width: 180,
-    borderRadius: 200,
+    width: 80,
+     borderRadius: 200,
     backgroundColor: '#852eff',
     marginBottom: 10
   }, commentModal: {

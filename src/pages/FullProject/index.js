@@ -390,15 +390,17 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#c9c9c9',
     margin: 10
-  }, likebutton: {
+  },
+  
+  likebutton: {
     marginTop: 10,
-    marginLeft: 10,
+    marginLeft: 5,
     flexDirection: 'row',
     justifyContent: 'center',
     display: 'flex',
     alignItems: 'center',
     height: 50,
-    width: 180,
+    width: 80,
     borderRadius: 200,
     backgroundColor: '#852eff',
     marginBottom: 10

@@ -257,7 +257,7 @@ export default function Profile() {
                         <Text style={styles.name}>{user.nome}</Text>
                         <Text style={styles.user}>{user.usuario}</Text>
                     </View>
-                    <TouchableOpacity onPress={() => { setModal(!modal) }} style={{ backgroundColor: '#6d0ad6', padding: 10, borderRadius: 40, marginLeft: '20%' }}>
+                    <TouchableOpacity onPress={() => { setModal(!modal) }} style={{ backgroundColor: '#6d0ad6', padding: 10, borderRadius: 40, marginLeft: '8%' }}>
                         <Feather name="edit" size={14} color="white" />
                     </TouchableOpacity>
                 </View>
@@ -389,7 +389,7 @@ export default function Profile() {
                     </ScrollView>
                 </Modal>
                 <View style={styles.bioContainer}>
-                    <Text style={{ marginRight: '93%', fontWeight: 'bold', fontSize: 16, color: '#6d0ad6' }}>Bio:</Text>
+                    <Text style={{ marginRight: '93%', fontWeight: 'bold', fontSize: 14, color: '#6d0ad6' }}>Bio:</Text>
                     <Text style={{ textAlign: 'left', marginLeft: '-92%' }}>{user.bio}</Text>
                 </View>
                 <View style={{

@@ -23,13 +23,13 @@ export default function ListaProjetosHome({ data }) {
 
     function bolsa() {
         if (data.rem == 1) {
-            return (<FontAwesome5 style={{ marginLeft: 0, marginRight: 10, marginTop: 10 }} name="coins" size={20} color="#ff8940" />)
+            return (<FontAwesome5 style={{ marginLeft: 0, marginRight: 5, marginTop: 10 }} name="coins" size={20} color="#ff8940" />)
         }
     }
 
     function certificate() {
         if (data.cef == 1) {
-            return (<FontAwesome5 style={{ marginLeft: 10, marginRight: 10, marginTop: 10 }} name="certificate" size={20} color="#ff8940" />)
+            return (<FontAwesome5 style={{ marginLeft: 0, marginRight: 5, marginTop: 10 }} name="certificate" size={20} color="#ff8940" />)
         }
     }
 

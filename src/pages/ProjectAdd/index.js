@@ -352,7 +352,7 @@ export default function ProjectAdd() {
       }
       }>
 
-        <MaterialIcons name="navigate-next" size={120} color="#6d0ad6" />
+        <MaterialIcons name="navigate-next" size={70} color="#6d0ad6" style={{ top: 50}} />
       </TouchableOpacity>
     </View>
 
@@ -375,14 +375,15 @@ const styles = StyleSheet.create({
     width: '90%',
   },
   imageBox: {
-    width: 200,
-    height: 200,
+    width: "43%",
+    height: 150,
+    top: 15,
     borderRadius: 10,
     borderWidth: 1,
     borderColor: '#000',
   },
   gBtn: {
-    height: '100%',
+    height: '20%',
     borderRadius: 15,
     backgroundColor: "#6d0ad6",
     display: 'flex',
